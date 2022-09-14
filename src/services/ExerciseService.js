@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const EXERCISE_API_BASE_URL = 'http://localhost:8081/api/exercises'
+const EXERCISE_API_BASE_URL = 'http://localhost:8080/api/exercises'
 
 class ExerciseService {
     getExercises() {
